@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-FIRST_PRODUCT = (By.CSS_SELECTOR, ".cards-properties")
+FIRST_PRODUCT = (By.CSS_SELECTOR, ".project-image")
 
 
 @when('Click on the first product')

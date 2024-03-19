@@ -6,7 +6,7 @@ from pages.base_page import Page
 
 
 class OffPlanPage(Page):
-    FIRST_PRODUCT = (By.CSS_SELECTOR, ".cards-properties")
+    FIRST_PRODUCT = (By.CSS_SELECTOR, ".project-image")
 
     def wait_element_clickable_click(self, FIRST_PRODUCT):
         self.wait.until(
