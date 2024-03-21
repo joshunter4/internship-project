@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
+from time import sleep
 
 
 USERNAME_FIELD = (By.CSS_SELECTOR, '#email-2')

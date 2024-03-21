@@ -4,7 +4,7 @@ from pages.base_page import Page
 
 
 class MainPage(Page):
-    OFF_PLAN_ICON = (By.CSS_SELECTOR, ".menu-twobutton")
+    OFF_PLAN_ICON = (By.CSS_SELECTOR, "address a[href='/off-plan']")
 
     def open_main(self):
         self.open('https://soft.reelly.io/')

@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-OFF_PLAN_ICON = (By.CSS_SELECTOR, ".menu-twobutton")
+OFF_PLAN_ICON = (By.CSS_SELECTOR, "address a[href='/off-plan']")
 
 
 @given('Open the main page')
