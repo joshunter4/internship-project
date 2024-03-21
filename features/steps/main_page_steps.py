@@ -10,6 +10,6 @@ def open_main_page(context):
     context.app.main_page.open_main()
 
 
-@when('Click on “off plan” at the left side menu')
+@when('Click on "off plan" at the left side menu')
 def off_plan_icon(context):
     context.app.main_page.click_off_plan_icon()

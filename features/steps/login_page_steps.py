@@ -10,4 +10,5 @@ LOGIN_BUTTON = (By.CSS_SELECTOR, "[wized='loginButton']")
 
 @when('Log in to the page')
 def click_cart(context):
+    sleep(5)
     context.app.login_page.profile_log_in()
